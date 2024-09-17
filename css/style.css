@@ -3,7 +3,7 @@ body {
 }
 
 .banner {
-    background-image: url(/porto/images\ kavin.jpg);
+    background-image: url(../images\ kavin.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 140px;
@@ -11,4 +11,10 @@ body {
 
 .skills-padding {
     padding: 70px 0;
+}
+
+@media(max-width:526px) {
+    .banner {
+        padding: 100px 0;
+    }
 }
